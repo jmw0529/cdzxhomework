@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>必要商城</title>
+    <link rel="stylesheet" href="必要商城.css">
+</head>
+<body>
+<div class="header header-index"></div>
+  <nav class="frist">
+      <nav class="clearfix">
+		<a href="http://www.biyao.com/home/index.html" class="logo" ><img src="http://static2.biyao.com/pc/common/img/master/logo.png" height="51"></a>
+        <nav class="category" id="category" >
+            <p><span id="fl">全部分类<i></i></span></p>
+            <nav>
+                <ul class="list" id="list">					
+                    <li class="main">
+                        <p>                               
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=621">
+                                    咖啡
+                                </a>                            
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=627">
+                                    饮食
+                                </a>                          
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=691">
+                                    正餐
+                                </a>                          
+                        </p>
+                    </li>               
+                    <li class="main">
+                        <p>                               
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=279">
+                                    男装
+                                </a>                           
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=294">
+                                    女装
+                                </a>                          
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=35">
+                                    鞋靴
+                                </a>                          
+                        </p>
+                    </li>              
+                    <li class="main">
+                        <p>                            
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=122">
+                                    眼镜
+                                </a>                        
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=339">
+                                    内衣配饰
+                                </a>                           
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=39">
+                                    运动
+                                </a>                     
+                        </p>
+                    </li>              
+                    <li class="main">
+                        <p>                              
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=119">
+                                    美妆
+                                </a>                          
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=724">
+                                    个护
+                                </a>                         
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=391">
+                                    母婴
+                                </a>                           
+                        </p>
+                    </li>              
+                    <li class="main">
+                        <p>                               
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=652">
+                                    生鲜直供
+                                </a>                            
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=51">
+                                    餐厨
+                                </a>                           
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=334">
+                                    电器
+                                </a>                          
+                        </p>
+                    </li>
+                    <li class="main">
+                        <p>                               
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=153">
+                                    箱包
+                                </a>                            
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=223">
+                                    数码办公
+                                </a>
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=429">
+                                    汽配
+                                </a>
+                        </p>
+                    </li>
+                    <li class="main">
+                        <p>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=355">
+                                    家纺
+                                </a>
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=10">
+                                    家具
+                                </a>
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=369">
+                                    家装
+                                </a>
+                        </p>
+                    </li>
+                    <li class="main">
+                        <p>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=546">
+                                    健康保健
+                                </a>
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=685">
+                                    宠物
+                                </a>
+                                <span>/</span>
+                                <a href="http://www.biyao.com/classify/category.html?categoryId=816">
+                                    礼品
+                                </a>
+                        </p>
+                    </li>
+            </ul>
+            </nav>
+        </nav>
+        <nav class="search" id="search">
+            <p>
+                <input type="text" id="searchInput" placeholder="请输入要搜索的商品">
+                <span id="searchBtn"></span>
+            </p>
+			<ul></ul>
+        </nav>
+        <nav class="tab" id="tab">
+            <ul>
+				<li><a href="http://www.biyao.com/home/index.html">首页</a></li>
+				<li><a href="http://www.biyao.com/classify/newProduct.html">每日上新</a></li>
+				<li class="border-l"></li>
+				<li class="tab-last">
+					<div id="hover_text1">
+						了解必要
+						<div id ="hover_codegzh">
+							<span>关注必要微信公众号<br>了解你想了解的一切<br>小必姐在此发福利哦</span>
+						</div>
+					</div>
+                </li>
+				<li class="tab-last" id="appDownload" >下载必要APP</li>
+				<li class="border-l"></li>
+				<li class="tab-last">
+					<div id="hover_text2">
+						我的必要
+						<div id="hover_codeapp">
+							<span>
+							扫码下载必要app
+							<br>
+							手机用户独享海量权益
+							</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+        </nav>
+      </nav>
+  </nav>
+ <!-- 导航栏 -->
+ <div id="popDiv"class="pop" style="z-index: 10001px; width: 520px; top: 98.9911px;left: 400px;">
+    <div class="poptop" style="text-align: center;">
+        <span class="close"id="close" ><a href=""></a></span>
+        <span class="f18">下载必要app</span>
+    </div>
+    <div class="popbd">
+        <div class="ANDROID">
+            <div class="icon"></div>
+            <div class="platfrm">Android</div>
+            <div class="code"></div>
+        </div> 
+        <div class="IOS">  
+            <div class="icon"></div>
+            <div class="platfrm">iOS</div>
+            <div class="code"></div>
+        </div>
+    </div>
+    <div class="text">
+        扫码下载必要APP，手机用户独享海量权益
+    </div>
+</div>
+ <!-- 弹窗 -->
+<ul class="right">
+    <li class="red">
+       <p> 
+           <div class="redb">
+            <div class="tip">
+                迎新福利
+                <br> 
+				微信扫码即得
+                </div>
+            </div>
+        </div>
+    </p>
+        <div class="gzhcode">
+        </div>
+    </li>
+    
+    <li>
+        
+    </li>
+</ul>
+<!-- 右边栏 -->
+<!-- 轮播图 -->
+<div class="banner">
+	<div class="banner-slider">
+		<img src="http://static1.biyao.com/pc/www/img/new_master/banner2.png?v=biyao_ded5987" />
+	</div>
+    <ul class="list">					
+        <li class="main">
+            <p>                               
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=621">
+                        咖啡
+                    </a>                            
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=627">
+                        饮食
+                    </a>                          
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=691">
+                        正餐
+                    </a>                          
+            </p>
+        </li>               
+        <li class="main">
+            <p>                               
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=279">
+                        男装
+                    </a>                           
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=294">
+                        女装
+                    </a>                          
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=35">
+                        鞋靴
+                    </a>                          
+            </p>
+        </li>              
+        <li class="main">
+            <p>                            
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=122">
+                        眼镜
+                    </a>                        
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=339">
+                        内衣配饰
+                    </a>                           
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=39">
+                        运动
+                    </a>                     
+            </p>
+        </li>              
+        <li class="main">
+            <p>                              
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=119">
+                        美妆
+                    </a>                          
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=724">
+                        个护
+                    </a>                         
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=391">
+                        母婴
+                    </a>                           
+            </p>
+        </li>              
+        <li class="main">
+            <p>                               
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=652">
+                        生鲜直供
+                    </a>                            
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=51">
+                        餐厨
+                    </a>                           
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=334">
+                        电器
+                    </a>                          
+            </p>
+        </li>
+        <li class="main">
+            <p>                               
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=153">
+                        箱包
+                    </a>                            
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=223">
+                        数码办公
+                    </a>
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=429">
+                        汽配
+                    </a>
+            </p>
+        </li>
+        <li class="main">
+            <p>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=355">
+                        家纺
+                    </a>
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=10">
+                        家具
+                    </a>
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=369">
+                        家装
+                    </a>
+            </p>
+        </li>
+        <li class="main">
+            <p>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=546">
+                        健康保健
+                    </a>
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=685">
+                        宠物
+                    </a>
+                    <span>/</span>
+                    <a href="http://www.biyao.com/classify/category.html?categoryId=816">
+                        礼品
+                    </a>
+            </p>
+        </li>
+</ul>
+<!-- 平台保证  -->
+<div class="platfor">
+	<dl><dt></dt><dd>大牌品质</dd></dl>
+	<dl><dt></dt><dd>工厂价格</dd></dl>
+	<dl><dt></dt><dd>分期支付</dd></dl>
+	<dl><dt></dt><dd>顺丰包邮</dd></dl>
+	<dl><dt></dt><dd>无忧退款</dd></dl>
+</div>
+<!-- 热销排行 -->
+<div class="hotsale">
+	<div class="title">
+		<h3>热销排行</h3>
+	</div>
+	<div class="rankings">		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301085060130000001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/5B/7C/rBACW14_iQGAPDHzAAFphbs4KdM017.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="79.00"></div>
+								<div class="mack">									
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>									
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">黛珂同原料制造商</div>
+							<div class="content">玻尿酸高保湿面膜10片26ml
+								<span class="evaluate">19.9w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1302235011010100001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/6C/18/rBACYV1mJZOAYMEjAAI33pKo7RQ134.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="59.00"></div>
+								<div class="mack">									
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>									
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">科颜氏同原料制造商</div>
+							<div class="content">米酵素洁面乳 泡沫绵密
+								<span class="evaluate">16.1w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301085113001100001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/58/35/rBACYV45v3CAOkVKAABinPV4D_E761.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="89.00"></div>
+								<div class="mack">									
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>									
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">DIOR同原料制造商</div>
+							<div class="content">玻尿酸淡纹变色（润唇膏）
+								<span class="evaluate">17.2w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301485128221000001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M01/5B/B6/rBACVF8jcQWAOwUtAAJLkosdGJ8018.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="36.00"></div>
+								<div class="mack">		
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>		
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">希尔顿酒店床品制造商</div>
+							<div class="content">S.S.铂金缎毛巾2条装
+								<span class="evaluate">11.5w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1303575000010000001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M01/F7/00/rBACVF7Qg7aAf2NJAACymzJqRIg448.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="59.00"></div>
+								<div class="mack">
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>									
+								</div>
+							</div>
+							<div class="supplier">星巴克咖啡中国产地</div>
+							<div class="content">手冲定制咖啡6杯9.9元/杯
+								<span class="evaluate">13.5w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>	
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301085059000100001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M01/2C/ED/rBACW1-_P7eAd7VIAABsvRc_xo4262.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="58.00"></div>
+								<div class="mack">	
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>		
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">CHANEL同原料制造商</div>
+							<div class="content">炫色魅力唇膏口红
+								<span class="evaluate">11.9w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>	
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301405109010000001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M01/E7/56/rBACVGCKgDSADycJAADrJkEfNyc604.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="108.00"></div>
+								<div class="mack">							
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>		
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">AHC同原料制造商	</div>
+							<div class="content">24K黄金璀璨精华（100ml）
+								<span class="evaluate">13.6w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301085103130000001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/5D/8B/rBACVF5E5yyAV7YVAAGOLNdfqoA107.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="58.00"></div>
+								<div class="mack">									
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>			
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">LABSERIES同原料制造商</div>
+							<div class="content">火山泥控油清洁洁面膏洗面
+								<span class="evaluate">9.7w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1302235012010100001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/6A/76/rBACVF1l-KqAEcGzAAFuWmii1mY835.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="78.00"></div>
+								<div class="mack">			
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>		
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">雅诗兰黛同原料制造商</div>
+							<div class="content">赋妍明眸眼霜 淡纹紧致
+								<span class="evaluate">16.3w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>		
+			<div class="commodity">
+				<a target="_blank" href="http://www.biyao.com/products/1301185219010100001-0.html">
+					<dl>
+						<dt>
+							<img src="http://bfs.biyao.com/group1/M00/2A/EC/rBACW14GpziAYJfCAAIHdIMcfiQ262.jpg" />
+						</dt>
+						<dd>
+							<div class="priceBox">
+								<div class="price" price="109.00"></div>
+								<div class="mack">			
+										<span style="color: #FFFFFF;background: #AB7FD1; border-color: #AB7FD1;">爆品</span>							
+										<span style="color: #FB4C81;background: #FFFFFF; border-color: #FB4C81;">一起拼</span>									
+								</div>
+							</div>
+							<div class="supplier">LANCOME同原料制造商</div>
+							<div class="content">清滢柔肤水大粉水爽肤水
+								<span class="evaluate">6.5w+条好评</span>
+							</div>
+						</dd>
+					</dl>
+				</a>
+			</div>
+	</div>
+</div>
+<!-- 底部栏 -->
+<div class="footer">
+    <div class="footer-main clearfix">
+    	<ul class="footer-detail">
+    		<li>
+    			<div class="gzh"></div>
+    			<ul class=a>
+    				<li class="hei">扫码关注必要微信公众号</li>
+    				<li>关注必要微信公众号</li>
+    				<li>实时了解必要平台政策</li>
+    				<li>人才招聘信息</li>
+    			</ul>
+    		</li>
+            <li class="border-l"></li>
+    		<li>
+    			<div class="app"></div>
+    			<ul class=b>
+    				<li class="hei">扫码下载必要APP</li>
+    				<li>随时随地掌握上新信息</li>
+    				<li>浏览、购买更便捷</li>
+    				<li>体验更多黑科技</li>
+    				<li>与必要面对面沟通</li>
+    			</ul>
+    		</li>
+    	</ul>
+    </div>
+    <div class="footer-info">
+    	<p>
+    		<a href="http://static.biyao.com/pc/www/html/xieyi.html" target="_blank">《用户服务协议》</a>
+    		<span>|</span>
+    		<a href="http://static1.biyao.com/pc/www/html/yinsi.html" target="_blank">《隐私政策》</a>
+    		<span>|</span>
+    		<a href="http://static2.biyao.com/pc/www/html/zhishichanquan.html" target="_blank">知识产权</a>
+    		<span>|</span>
+    		<a href="http://www.biyao.com/promulgate/promulgate.html" target="_blank">平台公示</a>
+    		<span>|</span>
+    		<a href="http://www.biyao.com/ipr/institution.html" target="_blank" id="biyaoRules">必要规则</a>
+    	</p>
+    	<p>
+	    	<span id="year"></span>
+	    	<script>
+	    		document.getElementById('year').innerHTML = 'Copyright © '+ new Date().getFullYear() +', BIYAO.COM';
+	    	</script>
+	    	<span>珠海必要科技有限公司</span>
+	    	<span>
+	    		<a href="http://static3.biyao.com/pc/www/img/footer/ww.png" target="_blank"><img width="14" height="14" src="http://static4.biyao.com/pc/www/img/footer/whjy.png?v=biyao_f5f3976"></a>
+	    		粤网文〔2018〕0969-419号
+	        </span>
+	    	<span>
+	    		<img width="14" height="14" src="http://static.biyao.com/pc/www/img/footer/ghs.png?v=biyao_d0289dc">
+	    		<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44049102496139" target="_blank">粤公网安备44049102496139号</a>
+	        </span>
+	        <span>
+	        	 <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备13088531号 </a>
+	        </span>
+    	</p>
+    	<p>
+    		<span><a href="http://static1.biyao.com/pc/www/img/footer/by_licence.png" target="_blank">营业执照</a></span>
+    		<span><a href="/home/businesslicense" target="_blank">增值电信业务经营许可证 粤B2-20170518</a></span>
+    		<span><a href="http://static2.biyao.com/pc/www/img/footer/by_drugs.png" target="_blank">互联网药品信息服务资格证书</a></span>
+    		<span><a href="http://static3.biyao.com/pc/www/img/footer/ylqx.png" target="_blank">医疗器械网络交易服务第三方平台备案凭证</a></span>
+    		<span><a href="http://static4.biyao.com/pc/www/img/footer/by_food.png" target="_blank">食品经营许可证</a></span>	
+    	</p>
+    	<p>
+    		<span><a href="javascript:;">（粤）网械平台备字（2018）第00007号</a></span>
+    		<span><a href="http://static.biyao.com/pc/www/img/footer/publish.png" target="_blank">出版物发行业务提供服务的网络交易平台备案</a></span>
+    		<span><a href="http://static1.biyao.com/pc/www/img/footer/wlfood.png" target="_blank">网络食品交易第三方备案凭证 备案号GDWS10009</a></span>
+    	</p>
+    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+    	<p>必要商城提示您，产品“由某制造商出品”仅为陈述制造商既往生产经历，并不意味着相应产品与特定品牌产品相同或近似。</p>
+    </div>
+<!-- js部分 -->
+<script type="text/javascript"> 
+var a=document.getElementById("hover_text1");
+var b=document.getElementById("hover_codegzh");
+var c=document.getElementById("hover_text2");
+var d=document.getElementById("hover_codeapp");
+	//2.书写事件
+	a.onmouseover=function(){
+		// alert('ok');
+		b.style.display="block";
+	}
+	a.onmouseout=function(){
+		b.style.display="none";
+	}
+    c.onmouseover=function(){
+		// alert('ok');
+		d.style.display="block";
+	}
+	c.onmouseout=function(){
+		d.style.display="none";
+	}
+    // hover
+var e=document.getElementById("appDownload")
+var g=document.getElementById("popDiv")
+    e.onclick=function(){
+    g.style.display="block"
+     }
+var f=document.getElementById("close")
+    f.onclick =function(){
+    g.style.display="none"
+    }
+    // 下载必要
+var fl=document.getElementById("fl");
+var list=document.getElementById("list");
+var tab=document.getElementById("tab");
+var logo=document.getElementsByClassName("logo")[0];
+	//2.书写事件
+	fl.onmouseover=function(){
+		list.style.display="block";
+	}
+	fl.onmouseout=function(){
+		list.style.display="none";
+	}      
+    window.onscroll=function(){ var t=document.documentElement.scrollTop || document.body.scrollTop;
+    if(t>=1) {
+    fl.style.display="block"
+    tab.style.display="none" 
+    logo.style.display="none"
+    }else{
+    fl.style.display="none"
+    tab.style.display="block"
+    logo.style.display="block"
+     }
+    }
+    </script> 
+</body>
+</html>
